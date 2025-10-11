@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f360c659214715d35d5bd1889cdc6c53",
+    "content-hash": "02b305d60a7f7642899d9eb1b5619bb5",
     "packages": [
         {
             "name": "brick/math",
@@ -9847,16 +9847,16 @@
         },
         {
             "name": "wyrihaximus/makefiles",
-            "version": "0.6.0",
+            "version": "0.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/Makefiles.git",
-                "reference": "f29f168198c37cb410b85bf08c2c81aab32e322b"
+                "reference": "81933813817269f1be55d86789d4d305fb9d0b3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/Makefiles/zipball/f29f168198c37cb410b85bf08c2c81aab32e322b",
-                "reference": "f29f168198c37cb410b85bf08c2c81aab32e322b",
+                "url": "https://api.github.com/repos/WyriHaximus/Makefiles/zipball/81933813817269f1be55d86789d4d305fb9d0b3c",
+                "reference": "81933813817269f1be55d86789d4d305fb9d0b3c",
                 "shasum": ""
             },
             "require": {
@@ -9864,8 +9864,11 @@
                 "ext-json": "^8.4",
                 "php": "^8.4"
             },
+            "conflict": {
+                "infection/infection": "<0.31.3"
+            },
             "require-dev": {
-                "wyrihaximus/test-utilities": "^8.0.0"
+                "wyrihaximus/test-utilities": "^8.5.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -9889,7 +9892,7 @@
             "description": "🧱 Makefile building blocks",
             "support": {
                 "issues": "https://github.com/WyriHaximus/Makefiles/issues",
-                "source": "https://github.com/WyriHaximus/Makefiles/tree/0.6.0"
+                "source": "https://github.com/WyriHaximus/Makefiles/tree/0.7.8"
             },
             "funding": [
                 {
@@ -9897,7 +9900,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-08-20T07:50:55+00:00"
+            "time": "2025-10-10T09:26:47+00:00"
         },
         {
             "name": "wyrihaximus/phpstan-react",
