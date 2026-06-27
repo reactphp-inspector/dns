@@ -118,7 +118,6 @@ final class DNSInstrumentation
                     $span->setStatus(StatusCode::STATUS_ERROR);
                     $span->end();
 
-                    /** @phpstan-ignore shipmonk.checkedExceptionInCallable */
                     throw $exception;
                 });
             },
@@ -220,7 +219,6 @@ final class DNSInstrumentation
                     $span->setStatus(StatusCode::STATUS_ERROR, $exception->getMessage());
                     $span->end();
 
-                    /** @phpstan-ignore shipmonk.checkedExceptionInCallable */
                     throw $exception;
                 });
             },
@@ -285,7 +283,6 @@ final class DNSInstrumentation
                     $span->setStatus(StatusCode::STATUS_ERROR);
                     $span->end();
 
-                    /** @phpstan-ignore shipmonk.checkedExceptionInCallable */
                     throw $exception;
                 });
             },
